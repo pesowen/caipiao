@@ -10,8 +10,13 @@
 		5A6211501C9441D900F4F8F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A62114E1C9441D900F4F8F6 /* Main.storyboard */; };
 		5A6211521C9441D900F4F8F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A6211511C9441D900F4F8F6 /* Assets.xcassets */; };
 		5A6211551C9441D900F4F8F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A6211531C9441D900F4F8F6 /* LaunchScreen.storyboard */; };
-		5A6211611C94426800F4F8F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A62115F1C94426800F4F8F6 /* AppDelegate.m */; };
-		5A6211621C94426800F4F8F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6211601C94426800F4F8F6 /* main.m */; };
+		5A6211821C94451100F4F8F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A62117E1C94451100F4F8F6 /* AppDelegate.m */; };
+		5A6211831C94451100F4F8F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6211811C94451100F4F8F6 /* main.m */; };
+		5A6211861C94454400F4F8F6 /* XMGHallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6211851C94454400F4F8F6 /* XMGHallViewController.m */; };
+		5A6211891C94454F00F4F8F6 /* XMGArenaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6211881C94454F00F4F8F6 /* XMGArenaViewController.m */; };
+		5A62118C1C94456200F4F8F6 /* XMGDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A62118B1C94456200F4F8F6 /* XMGDiscoverViewController.m */; };
+		5A62118F1C94457100F4F8F6 /* XMGHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A62118E1C94457100F4F8F6 /* XMGHistoryViewController.m */; };
+		5A6211921C94458100F4F8F6 /* XMGMyLotteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6211911C94458100F4F8F6 /* XMGMyLotteryViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,9 +25,19 @@
 		5A6211511C9441D900F4F8F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A6211541C9441D900F4F8F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A6211561C9441D900F4F8F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5A62115E1C94426800F4F8F6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5A62115F1C94426800F4F8F6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5A6211601C94426800F4F8F6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A62117D1C94451100F4F8F6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A62117E1C94451100F4F8F6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A6211811C94451100F4F8F6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A6211841C94454400F4F8F6 /* XMGHallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGHallViewController.h; sourceTree = "<group>"; };
+		5A6211851C94454400F4F8F6 /* XMGHallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGHallViewController.m; sourceTree = "<group>"; };
+		5A6211871C94454F00F4F8F6 /* XMGArenaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGArenaViewController.h; sourceTree = "<group>"; };
+		5A6211881C94454F00F4F8F6 /* XMGArenaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGArenaViewController.m; sourceTree = "<group>"; };
+		5A62118A1C94456200F4F8F6 /* XMGDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGDiscoverViewController.h; sourceTree = "<group>"; };
+		5A62118B1C94456200F4F8F6 /* XMGDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGDiscoverViewController.m; sourceTree = "<group>"; };
+		5A62118D1C94457100F4F8F6 /* XMGHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGHistoryViewController.h; sourceTree = "<group>"; };
+		5A62118E1C94457100F4F8F6 /* XMGHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGHistoryViewController.m; sourceTree = "<group>"; };
+		5A6211901C94458100F4F8F6 /* XMGMyLotteryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGMyLotteryViewController.h; sourceTree = "<group>"; };
+		5A6211911C94458100F4F8F6 /* XMGMyLotteryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGMyLotteryViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +70,7 @@
 		5A6211441C9441D900F4F8F6 /* caipiao */ = {
 			isa = PBXGroup;
 			children = (
-				5A62115C1C94426800F4F8F6 /* Classes */,
+				5A6211631C94451100F4F8F6 /* Classes */,
 				5A62114E1C9441D900F4F8F6 /* Main.storyboard */,
 				5A6211511C9441D900F4F8F6 /* Assets.xcassets */,
 				5A6211531C9441D900F4F8F6 /* LaunchScreen.storyboard */,
@@ -72,22 +87,240 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5A62115C1C94426800F4F8F6 /* Classes */ = {
+		5A6211631C94451100F4F8F6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				5A62115D1C94426800F4F8F6 /* Other */,
+				5A6211741C94451100F4F8F6 /* Main */,
+				5A62116C1C94451100F4F8F6 /* Hall(购彩大厅) */,
+				5A6211641C94451100F4F8F6 /* Arena(竞技场) */,
+				5A6211681C94451100F4F8F6 /* Discover(发现) */,
+				5A6211701C94451100F4F8F6 /* History(开奖信息) */,
+				5A6211781C94451100F4F8F6 /* MyLottery(我的彩票) */,
+				5A62117C1C94451100F4F8F6 /* Other */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		5A62115D1C94426800F4F8F6 /* Other */ = {
+		5A6211641C94451100F4F8F6 /* Arena(竞技场) */ = {
 			isa = PBXGroup;
 			children = (
-				5A62115E1C94426800F4F8F6 /* AppDelegate.h */,
-				5A62115F1C94426800F4F8F6 /* AppDelegate.m */,
-				5A6211601C94426800F4F8F6 /* main.m */,
+				5A6211651C94451100F4F8F6 /* Controller */,
+				5A6211661C94451100F4F8F6 /* Model */,
+				5A6211671C94451100F4F8F6 /* View */,
+			);
+			path = "Arena(竞技场)";
+			sourceTree = "<group>";
+		};
+		5A6211651C94451100F4F8F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A6211871C94454F00F4F8F6 /* XMGArenaViewController.h */,
+				5A6211881C94454F00F4F8F6 /* XMGArenaViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5A6211661C94451100F4F8F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5A6211671C94451100F4F8F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5A6211681C94451100F4F8F6 /* Discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				5A6211691C94451100F4F8F6 /* Controller */,
+				5A62116A1C94451100F4F8F6 /* Model */,
+				5A62116B1C94451100F4F8F6 /* View */,
+			);
+			path = "Discover(发现)";
+			sourceTree = "<group>";
+		};
+		5A6211691C94451100F4F8F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A62118A1C94456200F4F8F6 /* XMGDiscoverViewController.h */,
+				5A62118B1C94456200F4F8F6 /* XMGDiscoverViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5A62116A1C94451100F4F8F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5A62116B1C94451100F4F8F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5A62116C1C94451100F4F8F6 /* Hall(购彩大厅) */ = {
+			isa = PBXGroup;
+			children = (
+				5A62116D1C94451100F4F8F6 /* Controller */,
+				5A62116E1C94451100F4F8F6 /* Model */,
+				5A62116F1C94451100F4F8F6 /* View */,
+			);
+			path = "Hall(购彩大厅)";
+			sourceTree = "<group>";
+		};
+		5A62116D1C94451100F4F8F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A6211841C94454400F4F8F6 /* XMGHallViewController.h */,
+				5A6211851C94454400F4F8F6 /* XMGHallViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5A62116E1C94451100F4F8F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5A62116F1C94451100F4F8F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5A6211701C94451100F4F8F6 /* History(开奖信息) */ = {
+			isa = PBXGroup;
+			children = (
+				5A6211711C94451100F4F8F6 /* Controller */,
+				5A6211721C94451100F4F8F6 /* Model */,
+				5A6211731C94451100F4F8F6 /* View */,
+			);
+			path = "History(开奖信息)";
+			sourceTree = "<group>";
+		};
+		5A6211711C94451100F4F8F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A62118D1C94457100F4F8F6 /* XMGHistoryViewController.h */,
+				5A62118E1C94457100F4F8F6 /* XMGHistoryViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5A6211721C94451100F4F8F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5A6211731C94451100F4F8F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5A6211741C94451100F4F8F6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5A6211751C94451100F4F8F6 /* Controller */,
+				5A6211761C94451100F4F8F6 /* Model */,
+				5A6211771C94451100F4F8F6 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5A6211751C94451100F4F8F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5A6211761C94451100F4F8F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5A6211771C94451100F4F8F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5A6211781C94451100F4F8F6 /* MyLottery(我的彩票) */ = {
+			isa = PBXGroup;
+			children = (
+				5A6211791C94451100F4F8F6 /* Controller */,
+				5A62117A1C94451100F4F8F6 /* Model */,
+				5A62117B1C94451100F4F8F6 /* View */,
+			);
+			path = "MyLottery(我的彩票)";
+			sourceTree = "<group>";
+		};
+		5A6211791C94451100F4F8F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A6211901C94458100F4F8F6 /* XMGMyLotteryViewController.h */,
+				5A6211911C94458100F4F8F6 /* XMGMyLotteryViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5A62117A1C94451100F4F8F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5A62117B1C94451100F4F8F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5A62117C1C94451100F4F8F6 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				5A62117D1C94451100F4F8F6 /* AppDelegate.h */,
+				5A62117E1C94451100F4F8F6 /* AppDelegate.m */,
+				5A62117F1C94451100F4F8F6 /* Category */,
+				5A6211801C94451100F4F8F6 /* Lib */,
+				5A6211811C94451100F4F8F6 /* main.m */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		5A62117F1C94451100F4F8F6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		5A6211801C94451100F4F8F6 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -116,6 +349,7 @@
 		5A62113A1C9441D900F4F8F6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = XMG;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Owen;
 				TargetAttributes = {
@@ -161,8 +395,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A6211621C94426800F4F8F6 /* main.m in Sources */,
-				5A6211611C94426800F4F8F6 /* AppDelegate.m in Sources */,
+				5A6211831C94451100F4F8F6 /* main.m in Sources */,
+				5A6211891C94454F00F4F8F6 /* XMGArenaViewController.m in Sources */,
+				5A62118F1C94457100F4F8F6 /* XMGHistoryViewController.m in Sources */,
+				5A6211861C94454400F4F8F6 /* XMGHallViewController.m in Sources */,
+				5A62118C1C94456200F4F8F6 /* XMGDiscoverViewController.m in Sources */,
+				5A6211921C94458100F4F8F6 /* XMGMyLotteryViewController.m in Sources */,
+				5A6211821C94451100F4F8F6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

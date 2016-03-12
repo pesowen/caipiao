@@ -17,6 +17,7 @@
 		5A62118C1C94456200F4F8F6 /* XMGDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A62118B1C94456200F4F8F6 /* XMGDiscoverViewController.m */; };
 		5A62118F1C94457100F4F8F6 /* XMGHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A62118E1C94457100F4F8F6 /* XMGHistoryViewController.m */; };
 		5A6211921C94458100F4F8F6 /* XMGMyLotteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6211911C94458100F4F8F6 /* XMGMyLotteryViewController.m */; };
+		5A6211951C9445CE00F4F8F6 /* XMGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6211941C9445CE00F4F8F6 /* XMGTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		5A62118E1C94457100F4F8F6 /* XMGHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGHistoryViewController.m; sourceTree = "<group>"; };
 		5A6211901C94458100F4F8F6 /* XMGMyLotteryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGMyLotteryViewController.h; sourceTree = "<group>"; };
 		5A6211911C94458100F4F8F6 /* XMGMyLotteryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGMyLotteryViewController.m; sourceTree = "<group>"; };
+		5A6211931C9445CE00F4F8F6 /* XMGTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTabBarController.h; sourceTree = "<group>"; };
+		5A6211941C9445CE00F4F8F6 /* XMGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +249,8 @@
 		5A6211751C94451100F4F8F6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5A6211931C9445CE00F4F8F6 /* XMGTabBarController.h */,
+				5A6211941C9445CE00F4F8F6 /* XMGTabBarController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -399,6 +404,7 @@
 				5A6211891C94454F00F4F8F6 /* XMGArenaViewController.m in Sources */,
 				5A62118F1C94457100F4F8F6 /* XMGHistoryViewController.m in Sources */,
 				5A6211861C94454400F4F8F6 /* XMGHallViewController.m in Sources */,
+				5A6211951C9445CE00F4F8F6 /* XMGTabBarController.m in Sources */,
 				5A62118C1C94456200F4F8F6 /* XMGDiscoverViewController.m in Sources */,
 				5A6211921C94458100F4F8F6 /* XMGMyLotteryViewController.m in Sources */,
 				5A6211821C94451100F4F8F6 /* AppDelegate.m in Sources */,
